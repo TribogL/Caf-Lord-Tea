@@ -4,7 +4,7 @@
  --paredFondo:#F9FADE ;
  --textoNav:#450c0c;
  --texto:black;
- --ilumination:#FF1C1C;
+ --ilumination:#9CFC5A ;
 }
 * {
     margin: 0;
@@ -16,9 +16,6 @@ a {
     text-decoration: none; 
 }
 header{
-    background-color: var(--paredFondo);
-}
-footer{
     background-color: var(--paredFondo);
 }
 .contenedor-barra{
@@ -61,4 +58,27 @@ footer{
     text-align: center;
     width: 400px;
     margin-left: 390px;   
+}
+
+footer{
+    background-color: var(--paredFondo);
+}
+.contenedor-footer{
+    margin-top: 100%;
+}
+.contenedor-redes{
+    display: flex;
+    flex-direction:row;
+    align-items: end;
+    justify-content:center;
+    margin-bottom: 0%;
+}
+.contenedor-redes a{
+    padding: 20px;
+    color: var(--textoNav);
+}
+.derechos{
+    display: block;
+    text-align: center;
+    margin-bottom: 0%;
 }
