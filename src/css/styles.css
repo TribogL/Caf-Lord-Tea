@@ -5,11 +5,22 @@
  --textoNav:#450c0c;
  --texto:black;
  --ilumination:#6FCB2F ;
+ --hr:#483A11;
+ --paredbody:#DCCA94;
 }
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    background-color: var(--paredbody);
+}
+hr{
+ background-color: var(--hr);
+ height: 1vh;
+ border-color: var(--hr);
+ border: 1px;
 }
 a {
     text-transform: capitalize;
@@ -58,6 +69,11 @@ header{
     text-align: center;
     width: 400px;
     margin-left: 390px;   
+}
+.contenedor-menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 footer{
