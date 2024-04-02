@@ -4,7 +4,7 @@
  --paredFondo:#F9FADE ;
  --textoNav:#450c0c;
  --texto:black;
- --ilumination:#9CFC5A ;
+ --ilumination:#6FCB2F ;
 }
 * {
     margin: 0;
@@ -76,6 +76,9 @@ footer{
 .contenedor-redes a{
     padding: 20px;
     color: var(--textoNav);
+}
+.contenedor-redes a :hover{
+    color: var(--ilumination);
 }
 .derechos{
     display: block;
