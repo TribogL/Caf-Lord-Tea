@@ -18,6 +18,9 @@ a {
 header{
     background-color: var(--paredFondo);
 }
+footer{
+    background-color: var(--paredFondo);
+}
 .contenedor-barra{
     display: flex;
     align-items: start;
