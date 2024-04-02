@@ -24,10 +24,7 @@ footer{
 .contenedor-barra{
     display: flex;
     align-items: start;
-    justify-content:space-between;
-}
-.hojas-te{
-    width: 60px;
+    justify-content: end;
 }
 .contenedor-barra .barra a{
     text-transform: capitalize;
