@@ -5,6 +5,7 @@
  --textoNav:#450c0c;
  --texto:black;
  --ilumination:#6FCB2F ;
+ --bienvenida:#DBFFD3;
  --hr:#483A11;
  --paredbody:#DCCA94;
 }
@@ -14,13 +15,10 @@
     box-sizing: border-box;
 }
 body{
+    background-image: url(../../public/img/Coffee-Bean-Hardness-1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
     background-color: var(--paredbody);
-}
-hr{
- background-color: var(--hr);
- height: 1vh;
- border-color: var(--hr);
- border: 1px;
 }
 a {
     text-transform: capitalize;
@@ -30,9 +28,18 @@ header{
     background-color: var(--paredFondo);
 }
 .contenedor-barra{
+    position:fixed;
+    top:0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background-color: var(--paredFondo);
+    width: 100%;
+    height: 10%;
     display: flex;
     align-items: start;
     justify-content:space-between;
+    border-bottom: 10PX solid var(--hr);
 }
 .hojas-te{
     width: 60px;
@@ -51,29 +58,29 @@ header{
     color: var(--ilumination);
 }
 .bienvenidos{
-    display: flex;
-    flex-direction: column;
+    text-align: center;
+    margin-top: 500PX;
+    margin-bottom: 0;
+    font-size: 60px;
 }
 .bienvenidos h1{
-    font-size: 60px;
-    margin-left: 300px;
-    margin-bottom: 0px;
-}
-.bienvenidos h2{
-    width: 300px;
-    text-transform: capitalize;
-    margin-top: 0px;
-    margin-left: 390px;
-}
-.parrafo{
-    text-align: center;
-    width: 400px;
-    margin-left: 390px;   
+    color: var(--bienvenida);
 }
 .contenedor-menu{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-top: 85vh;
+    border-top: 10px  solid var(--hr);
+}
+.contenedor-menu h2{
+    margin-top: 10vh;
     text-align: center;
+    font-size: 50px;
+}
+.menu{
+    width: 700px;
+    margin-top: 10vh;
 }
 
 footer{
