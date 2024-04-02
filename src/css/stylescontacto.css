@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+:root{
+    --paredFondo:#F9FADE ;
+    --textoNav:#450c0c;
+    --texto:black;
+    --ilumination:#FF1C1C;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: var(--paredFondo);
+}
+a {
+    text-transform: capitalize;
+    text-decoration: none; 
+}
+.contenedor-barra{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+.contacto-caja{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 200px;
+}

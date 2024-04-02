@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+:root{
+ --paredFondo:#F9FADE ;
+ --textoNav:#450c0c;
+ --texto:black;
+ --ilumination:#FF1C1C;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-transform: capitalize;
+    text-decoration: none; 
+}
+header{
+    background-color: var(--paredFondo);
+}
+.contenedor-barra{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+.contenedor-barra .barra a{
+    text-transform: capitalize;
+    position: relative;
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: var(--textoNav);
+    display: block;
+}
+.barra a :hover{
+    color: var(--ilumination);
+}
+.bienvenidos{
+    display: flex;
+    flex-direction: column;
+}
+.bienvenidos h1{
+    font-size: 60px;
+    margin-left: 300px;
+    margin-bottom: 0px;
+}
+.bienvenidos h2{
+    width: 300px;
+    text-transform: capitalize;
+    margin-top: 0px;
+    margin-left: 390px;
+}
+.parrafo{
+    text-align: center;
+    width: 400px;
+    margin-left: 390px;   
+}
