@@ -24,7 +24,7 @@
                 <h1>¡Lord Tea Cafe!</h1> <!--H1 del archivo index-->
             </article>
             <nav class="barra"> <!--la barra de navegación compuesta por dos anchor y sus respectivos iconos -->
-                <a href="./src/page/formulario.html" alt="formulario">formulario
+                <a href="#formula" alt="formulario">formulario
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-ui-checks" viewBox="0 0 16 16">
                         <path
@@ -53,36 +53,36 @@
                 <img class="menu" src="./public/img/1.png" alt="menu">
             </article>
             <article class="sobre-nosotros">
-                <p>
-                    Cuando las puertas de Lord Tea se abrieron en 1934, El señor Edward Harrington, nunca imagino que su
-                    pequeña cafetería se convertiría en un pilar de la comunidad durante los siguientes 90 años. la
-                    historia de Lord Tea era la historia de su vida.
+                <div id="nosotros">
+                    <span>Nuestra historia</span>
+                    <hr>
+                    <p>
+                        Cuando las puertas de Lord Tea se abrieron en 1934, El señor Edward Harrington, nunca imagino
+                        que su
+                        pequeña cafetería se convertiría en un pilar de la comunidad durante los siguientes 90 años. la
+                        historia de Lord Tea era la historia de su vida.</p>
 
-                    El señor Edward Harrington, desde joven, siempre tuvo una pasión por el café. Le encantaba el ritual
-                    de tostar los granos y preparar la bebida perfecta para cada ocasión. Después de años de
-                    perfeccionar su arte, decidio que era hora de compartir mi amor por el café con el mundo.
-
-                    Con un modesto capital y un sueño en el corazón, abrió las puertas de Lord Tea en un pequeño rincón
-                    de la ciudad. Desde el primer día, supe que había creado algo especial. La cafetería atrajo a
-                    personas de todas las esferas de la vida, desde trabajadores de oficina hasta artistas locales en
-                    busca de inspiración.
-
-                    Lo que comenzó como un negocio pronto se convirtió en mucho más que eso. Lord Tea se convirtió en un
-                    lugar de encuentro para la comunidad, un refugio donde la gente podía reunirse para compartir ideas,
-                    celebrar logros y consolarse en tiempos difíciles. La calidez del ambiente y la calidad del café nos
-                    convirtieron en una institución venerada en la ciudad.
-
-                    A lo largo de los años, he visto pasar generaciones de clientes por nuestras puertas. He sido
-                    testigo de momentos de alegría y tristeza, de amistades que florecen y amores que nacen. A medida
-                    que envejezco, mi mayor alegría es ver cómo mi legado vive a través de mi familia y de todos los que
-                    continúan la tradición de Lord Tea con el mismo amor y devoción que yo.
-
-                    Hoy en día, Lord Tea sigue siendo un faro de hospitalidad y calidad en la ciudad. Con cada taza de
-                    café que servimos, llevamos consigo no solo el aroma del grano recién tostado, sino también el
-                    espíritu de una tradición que ha perdurado a lo largo de los años. Estoy orgulloso de lo que hemos
-                    construido aquí en Lord Tea, y espero que sigamos siendo una parte querida de esta comunidad durante
-                    muchos años más.
-                </p>
+                    <p>El señor Edward Harrington, desde joven, siempre tuvo una pasión por el café. Le encantaba el
+                        ritual
+                        de tostar los granos y preparar la bebida perfecta para cada ocasión. Después de años de
+                        perfeccionar su arte, decidio que era hora de compartir mi amor por el café con el mundo.</p>
+                    <p>
+                        Con un modesto capital y un sueño en el corazón, abrió las puertas de Lord Tea en un pequeño
+                        rincón
+                        de la ciudad. Desde el primer día, supe que había creado algo especial. La cafetería atrajo a
+                        personas de todas las esferas de la vida, desde trabajadores de oficina hasta artistas locales
+                        en
+                        busca de inspiración.</p>
+                    <p>
+                        Lo que comenzó como un negocio pronto se convirtió en mucho más que eso. Lord Tea se convirtió
+                        en un
+                        lugar de encuentro para la comunidad, un refugio donde la gente podía reunirse para compartir
+                        ideas,
+                        celebrar logros y consolarse en tiempos difíciles. La calidez del ambiente y la calidad del café
+                        nos
+                        convirtieron en una institución venerada en la ciudad.
+                    </p>
+                </div>
             </article>
             <article>
 
@@ -92,22 +92,24 @@
     <footer>
         <section class="contenedor-footer">
             <article class="contenedeor-formulario">
-                <form action="#" method="post">
-                    <h2>Contactenos</h2>
-                    <div class="formulario">
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" placeholder="nombre apellido" required>
-                        <label for="email">Correo:</label>
-                        <input type="email" placeholder="Correo" required>
-                        <label for="mensaje">Mensaje:</label>
-                        <textarea name="mensaje" rows="5" placeholder="Mensaje"></textarea>
-                    </div>
-                    <div class="formula-txt">
-                        <a href="#">Politica de privacidad</a>
-                        <a href="#">Terminos y condiciones</a>
-                    </div>
-                    <input class="boton" type="submit" name="boton" id="boton" value="enviar">
-                </form>
+                <div id="formula">
+                    <form action="#" method="post">
+                        <h2>Contactenos</h2>
+                        <div class="formulario">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" placeholder="nombre apellido" required>
+                            <label for="email">Correo:</label>
+                            <input type="email" placeholder="Correo" required>
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea name="mensaje" rows="5" placeholder="Mensaje"></textarea>
+                        </div>
+                        <div class="formula-txt">
+                            <a href="#">Politica de privacidad</a>
+                            <a href="#">Terminos y condiciones</a>
+                        </div>
+                        <input class="boton" type="submit" name="boton" id="boton" value="enviar">
+                    </form>
+                </div>
             </article>
             <article class="contenedor-redes">
                 <a href="https://wa.me/573145971425/?text=linea de soporte" title="whatsapp">whatsapp
