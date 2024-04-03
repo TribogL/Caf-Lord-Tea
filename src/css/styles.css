@@ -10,7 +10,7 @@
     --hr: #483A11;
     --paredbody: #DCCA94;
     --color-ilumi: #13ffe0;
-    --sombra: #b2aeae;
+    --sombra: #7f7b7b;
     --pared: #f2ecea;
     --colortextfrom: #181818;
 }
@@ -35,12 +35,15 @@ a {
 header {
     background-color: var(--paredFondo);
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-div[id]{
+
+div[id] {
     scroll-margin-top: 100px;
 }
+
 .logo {
     display: flex;
     flex-direction: row;
@@ -82,7 +85,10 @@ div[id]{
 .barra a :hover {
     color: var(--ilumination);
 }
-
+.granos-cafe{
+    width: 100%;
+    border-bottom: 10px solid var(--hr);
+}
 .contenedor-menu {
     display: flex;
     flex-direction: column;
@@ -100,25 +106,38 @@ div[id]{
     margin-top: 10vh;
 }
 
-.sobre-nosotros {
-    display: block;
-    align-items: center;
+.sobre-nosotros{
+    display: inline-flex;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 150vh;
-    width: 700px;
-    margin: 70vh;
+    align-items: center;
+    width: 600px;
+    margin: 650px;
+    margin-bottom: 520px;
     background-color: var(--paredFondo);
 }
-.sobre-nosotros span{
+.sobre-nosotros span {
     text-align: center;
     font-size: 40px;
 }
+
 .sobre-nosotros p {
-    width: 700px;
+    width: 600px;
     font-size: 30px;
     text-align: center;
 }
 
+.mapa {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.mapa #mapa{
+    border:10px solid var(--paredFondo);
+    border-radius: 2%;
+    box-shadow: 0px 0px 7px 10px var(--sombra);
+
+}
 footer {
     background-color: var(--paredFondo);
 }
@@ -127,7 +146,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100%;
+    margin-top: 60vh;
 }
 
 .contenedeor-formulario {
@@ -147,7 +166,7 @@ footer {
 }
 
 .formulario {
-    display:inline-flex;
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
     text-align: left;
@@ -166,7 +185,8 @@ label {
     margin-bottom: 15px;
 }
 
-input,textarea {
+input,
+textarea {
     width: 452px;
     padding: 17px 25px;
     border-radius: 25px;
