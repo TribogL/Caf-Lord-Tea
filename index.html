@@ -18,107 +18,323 @@
 </head>
 
 <body>
+    <!--Parte del header que contiene la barra de navegación y el logo-->
     <header>
         <section class="contenedor-barra-total">
             <article class="contenedor-barra">
                 <div class="contenedor-logo">
-                    <img class="logo" src="./public/img/VOYAGER+NAUTICAL+Logo+-+Original.svg__2_-removebg-preview.png"
-                        alt="VOYAGER NAUTICAL">
-                    <h1>VOYAGER NAUTICAL</h1>
+                    <figure>
+                        <img class="logo"
+                            src="./public/img/VOYAGER+NAUTICAL+Logo+-+Original.svg__2_-removebg-preview.png"
+                            alt="VOYAGER NAUTICAL">
+                    </figure>
+                    <div>
+                        <h1>VOYAGER NAUTICAL</h1>
+                    </div>
                 </div>
                 <div class="nave-barra">
                     <a href="#inicio">inico
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-compass" viewBox="0 0 16 16">
-                            <path
-                                d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016m6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0" />
-                            <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z" />
-                        </svg>
+                        <i class="bi bi-compass"></i>
+                    </a>
+                    <a href="#productos">productos
+                        <i class="bi bi-shop"></i>
                     </a>
                     <a href="#">sobre/VN
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-file-earmark-person-fill" viewBox="0 0 16 16">
-                            <path
-                                d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0m2 5.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-.245S4 12 8 12s5 1.755 5 1.755" />
-                        </svg>
-                    </a>
-                    <a href="#contacto">contacto
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-person-lines-fill" viewBox="0 0 16 16">
-                            <path
-                                d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z" />
-                        </svg>
+                        <i class="bi bi-file-earmark-person-fill"></i>
                     </a>
                     <a href="#">formulario
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-ui-checks" viewBox="0 0 16 16">
-                            <path
-                                d="M7 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zM2 1a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm0 8a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2zm.854-3.646a.5.5 0 0 1-.708 0l-1-1a.5.5 0 1 1 .708-.708l.646.647 1.646-1.647a.5.5 0 1 1 .708.708zm0 8a.5.5 0 0 1-.708 0l-1-1a.5.5 0 0 1 .708-.708l.646.647 1.646-1.647a.5.5 0 0 1 .708.708zM7 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5" />
-                        </svg>
+                        <i class="bi bi-ui-checks"></i>
+                    </a>
+                    <a href="#contacto">contacto
+                        <i class="bi bi-person-lines-fill"></i>
                     </a>
                 </div>
                 <article>
                     <div class="barra-buscadora">
-                        <a href="#"> buscador
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-search" viewBox="0 0 16 16">
-                                <path
-                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-                            </svg>
+                        <a href="https://pa1.aminoapps.com/6264/56ee705b7e80cb5d49ce3e31f6614554c6b3f622_00.gif">
+                            buscador
+                            <i class="bi bi-search"></i>
                         </a>
                     </div>
                 </article>
             </article>
+            <article>
+                <div id="inicio">
+                </div>
+            </article>
         </section>
     </header>
+
+    <!--Parte del main que contiene los productos y la parte de introduccion sobre la empresa-->
+
     <main>
         <section class="menu-productos">
-            <div id="inicio">
-                <h2>nuestros navios</h2>
+            <div id="productos">
+                <h2>Nuestros Navios</h2>
             </div>
         </section>
+        <hr>
         <section class="contenedor-productos">
-            <article class="veleros">
-                <h2>veleros</h2>
-                <div>
-                    <img class="productos" src="https://cdn.aarp.net/content/dam/aarp/travel/local-getaways/2018/03/1140-star-clipper-small-cruise-ships-esp.imgcache.rev.web.1000.575.jpg"
-                        alt="velero-1">
+            <h3>veleros</h3>
+            <br>
+            <br>
+            <article>
+                <div class="contenedor-veleros">
+                    <figure>
+                        <img class="productos"
+                            src="https://cdn.aarp.net/content/dam/aarp/travel/local-getaways/2018/03/1140-star-clipper-small-cruise-ships-esp.imgcache.rev.web.1000.575.jpg"
+                            alt="velero-1">
+                    </figure>
+                    <div class="parrafo" <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut mollitia
+                        similique nostrum saepe
+                        cupiditate neque voluptatibus a, animi nisi adipisci blanditiis consequuntur quibusdam
+                        vitae!
+                        Asperiores commodi exercitationem tenetur? Vero, dicta!
+                        Molestias, laboriosam modi harum facilis accusantium nihil at optio aliquid ipsa aspernatur
+                        quas
+                        eveniet cum doloremque rem consequuntur blanditiis in repellat deleniti nesciunt, nemo
+                        minima
+                        consectetur eligendi incidunt a! Necessitatibus.</p>
+
+                    </div>
                 </div>
-                <div>
-                    <img class="productos" src="https://pinake.files.wordpress.com/2012/01/sedov_robert_edmonds.jpg" alt="velero-2">
+                <div class="contenedor-veleros">
+                    <img class="productos" src="https://pinake.files.wordpress.com/2012/01/sedov_robert_edmonds.jpg"
+                        alt="velero-2">
+                    <div class="parrafo">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae maiores distinctio quisquam.
+                            Non,
+                            labore repudiandae? Quos totam cupiditate, praesentium animi voluptatum aut autem quod
+                            facere
+                            blanditiis soluta id debitis officia?
+                            Nam odit, obcaecati corporis praesentium soluta ducimus quos, reiciendis consequuntur
+                            veritatis
+                            vel tenetur sequi. Ullam dolorum nam fugiat neque. Magnam sint necessitatibus eum sunt ad
+                            sit,
+                            voluptates accusantium. Amet, officiis!</p>
+                    </div>
                 </div>
-                <div>
-                    <img class="productos" src="https://q-xx.bstatic.com/xdata/images/hotel/max500/329681496.jpg?k=92fa89e9be507c3bfbd502f61de081a2225bb5811c49be30b34d8ca33f490723&o="
+                <div class="contenedor-veleros">
+                    <img class="productos"
+                        src="https://q-xx.bstatic.com/xdata/images/hotel/max500/329681496.jpg?k=92fa89e9be507c3bfbd502f61de081a2225bb5811c49be30b34d8ca33f490723&o="
                         alt="velero-3">
+                    <div class="parrafo">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat aperiam ducimus quos ab,
+                            voluptates neque perspiciatis, voluptatem omnis culpa sapiente ullam incidunt facere
+                            veritatis
+                            eius quo error delectus. Beatae, provident.
+                            Consequatur, aliquam est possimus iure tenetur qui placeat eos sapiente ex enim dolor
+                            praesentium! Quos magnam dignissimos fugit ipsam illum vero fuga, corrupti consequatur
+                            deserunt
+                            ducimus doloribus. Labore, veniam consequatur.</p>
+                    </div>
                 </div>
-                <div>
-                    <img class="productos" src="https://www.motyvel.com/wp-content/uploads/2021/02/multicasco-1-e1612785377330.jpg"
+                <div class="contenedor-veleros">
+                    <img class="productos"
+                        src="https://www.motyvel.com/wp-content/uploads/2021/02/multicasco-1-e1612785377330.jpg"
                         alt="velero-4">
+                    <div class="parrafo">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam aspernatur repellat
+                            ipsam
+                            cupiditate voluptate. Distinctio tempore laudantium sunt nostrum omnis ipsam aperiam
+                            incidunt
+                            consequuntur, deleniti facere accusantium! Alias, optio labore.
+                            Repellat suscipit, quas accusamus repellendus velit debitis obcaecati totam. Odio amet
+                            quos
+                            quibusdam impedit perferendis fugit dolore, ipsa iure nobis ex neque ullam temporibus
+                            quaerat
+                            eaque, repellendus odit in doloribus.</p>
+                    </div>
+                </div>
                 </div>
             </article>
+        </section>
+
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+
+        <section class="contenedor-productos">
             <article class="cargueros">
-                <h2>cargueros</h2>
-                <div>
-                    <img class="productos" src="https://noticiasdecruceros.com/wp-content/uploads/2015/11/Carguero-800x534.jpg" alt="carguero-1">
+                <h3>Cargueros</h3>
+                <div class="contenedor-cargueros">
+                    <figure><img class="productos"
+                            src="https://noticiasdecruceros.com/wp-content/uploads/2015/11/Carguero-800x534.jpg"
+                            alt="carguero-1">
+                    </figure>
+                    <div>
+                        <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, suscipit
+                            debitis nostrum odio
+                            repellendus sunt eaque perferendis id recusandae harum dolor quasi exercitationem eius,
+                            animi
+                            perspiciatis facere nihil illum obcaecati.
+                            Architecto excepturi non, aperiam ea voluptatum obcaecati, vel facere deleniti nostrum
+                            voluptatibus earum in ullam officia. Quaerat, provident similique quae fugiat corrupti,
+                            ratione
+                            aliquam, voluptatibus repellat eum reiciendis temporibus. Rerum.</p>
+                    </div>
                 </div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div class="contenedor-cargueros">
+                    <figure><img class="productos"
+                            src="https://lubridealer.com/wp-content/uploads/2022/05/HMM_ALGECIRAS-3-1-3.jpg"
+                            alt="carguero-2">
+                    </figure>
+                    <div>
+                        <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, suscipit
+                            debitis nostrum odio
+                            repellendus sunt eaque perferendis id recusandae harum dolor quasi exercitationem eius,
+                            animi
+                            perspiciatis facere nihil illum obcaecati.
+                            Architecto excepturi non, aperiam ea voluptatum obcaecati, vel facere deleniti nostrum
+                            voluptatibus earum in ullam officia. Quaerat, provident similique quae fugiat corrupti,
+                            ratione
+                            aliquam, voluptatibus repellat eum reiciendis temporibus. Rerum.</p>
+                    </div>
+                </div>
+                <div class="contenedor-cargueros">
+                    <figure><img class="productos"
+                            src="https://www.bardahlindustria.com/wp-content/uploads/2020/06/oocl-hong-kong.jpg"
+                            alt="carguero-3">
+                    </figure>
+                    <div>
+                        <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, suscipit
+                            debitis nostrum odio
+                            repellendus sunt eaque perferendis id recusandae harum dolor quasi exercitationem eius,
+                            animi
+                            perspiciatis facere nihil illum obcaecati.
+                            Architecto excepturi non, aperiam ea voluptatum obcaecati, vel facere deleniti nostrum
+                            voluptatibus earum in ullam officia. Quaerat, provident similique quae fugiat corrupti,
+                            ratione
+                            aliquam, voluptatibus repellat eum reiciendis temporibus. Rerum.</p>
+                    </div>
+                </div>
+                <div class="contenedor-cargueros">
+                    <figure><img class="productos"
+                            src="https://www.lavozdegalicia.es/default/2021/03/31/00121617207487032471160/Foto/algeciras.jpg"
+                            alt="carguero-4">
+                    </figure>
+                    <div>
+                        <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, suscipit
+                            debitis nostrum odio
+                            repellendus sunt eaque perferendis id recusandae harum dolor quasi exercitationem eius,
+                            animi
+                            perspiciatis facere nihil illum obcaecati.
+                            Architecto excepturi non, aperiam ea voluptatum obcaecati, vel facere deleniti nostrum
+                            voluptatibus earum in ullam officia. Quaerat, provident similique quae fugiat corrupti,
+                            ratione
+                            aliquam, voluptatibus repellat eum reiciendis temporibus. Rerum.</p>
+                    </div>
+                </div>
             </article>
-            <article>
+        </section>
 
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+
+        <section class="contenedor-productos">
+            <article class="pesqueros">
+                <h3>Pesqueros</h3>
+                <div class="contenedor-pesqueros">
+                    <figure>
+                        <img class="productos" src="https://cobertura360.mx/wp-content/uploads/2021/02/PESCADORES-2.jpg"
+                            alt="pesquero-1">
+                    </figure>
+                    <div>
+                        <p class="parrafo">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi maiores repellat facilis
+                            voluptatem molestias quae exercitationem ad hic omnis ea, autem consectetur delectus alias
+                            minus consequuntur nam odio, eaque ducimus.
+                            Ipsa minus vitae recusandae, ab, saepe perspiciatis corrupti modi architecto natus unde
+                            pariatur, quasi iste eligendi nihil libero! Fugit, officia! Vitae consectetur necessitatibus
+                            in deserunt delectus dolorum inventore, commodi placeat!
+                        </p>
+                    </div>
+                </div>
+                <div class="contenedor-pesqueros">
+                    <figure>
+                        <img class="productos"
+                            src="https://www.diariodelanzarote.com/sites/default/files/archivos/2014/Julio/150714-atunero-lanzarote660.jpg"
+                            alt="pesquero-2">
+                    </figure>
+                    <div>
+                        <p class="parrafo">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi maiores repellat facilis
+                            voluptatem molestias quae exercitationem ad hic omnis ea, autem consectetur delectus alias
+                            minus consequuntur nam odio, eaque ducimus.
+                            Ipsa minus vitae recusandae, ab, saepe perspiciatis corrupti modi architecto natus unde
+                            pariatur, quasi iste eligendi nihil libero! Fugit, officia! Vitae consectetur necessitatibus
+                            in deserunt delectus dolorum inventore, commodi placeat!
+                        </p>
+                    </div>
+                </div>
+                <div class="contenedor-pesqueros">
+                    <figure>
+                        <img class="productos"
+                            src="https://i.pinimg.com/736x/d7/4f/9e/d74f9e3500fee31e24a8b26efb0bedae.jpg"
+                            alt="pesquero-3">
+                    </figure>
+                    <div>
+                        <p class="parrafo">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi maiores repellat facilis
+                            voluptatem molestias quae exercitationem ad hic omnis ea, autem consectetur delectus alias
+                            minus consequuntur nam odio, eaque ducimus.
+                            Ipsa minus vitae recusandae, ab, saepe perspiciatis corrupti modi architecto natus unde
+                            pariatur, quasi iste eligendi nihil libero! Fugit, officia! Vitae consectetur necessitatibus
+                            in deserunt delectus dolorum inventore, commodi placeat!
+                        </p>
+                    </div>
+                </div>
+                <div class="contenedor-pesqueros">
+                    <figure>
+                        <img class="productos"
+                            src="https://i.pinimg.com/originals/6a/bf/7c/6abf7c2d121a8dfda0c27348b22344e8.jpg"
+                            alt="pesquero-4">
+                    </figure>
+                    <div>
+                        <p class="parrafo">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi maiores repellat facilis
+                            voluptatem molestias quae exercitationem ad hic omnis ea, autem consectetur delectus alias
+                            minus consequuntur nam odio, eaque ducimus.
+                            Ipsa minus vitae recusandae, ab, saepe perspiciatis corrupti modi architecto natus unde
+                            pariatur, quasi iste eligendi nihil libero! Fugit, officia! Vitae consectetur necessitatibus
+                            in deserunt delectus dolorum inventore, commodi placeat!
+                        </p>
+                    </div>
+                </div>
             </article>
-            <article>
+        </section>
 
-            </article>
-            <article>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
 
-            </article>
+        <section class="contenedor-productos">
             <article>
-
+                <h3>Sobre VOYAGER NAUTICAL</h3>
+                <div class="contenedor-voyager">
+                    <p>VOYAGER NAUTICAL es una empresa líder en el ensamblado y distribución de embarcaciones y sus
+                        componentes. Desde nuestra fundación en 1994, nos hemos dedicado incansablemente a la creación y
+                        ensamblaje de navíos de calidad excepcional y confort inigualable para nuestros clientes.
+                        Nuestro compromiso con la excelencia se refleja en cada etapa del proceso, desde la selección de
+                        los mejores materiales hasta la meticulosa atención al detalle en la fabricación. En VOYAGER
+                        NAUTICAL, nuestra pasión por la navegación se fusiona con un firme compromiso con la
+                        satisfacción del cliente, garantizando que cada embarcación que sale de nuestras instalaciones
+                        sea una obra maestra de ingeniería marítima.
+                    </p>
+                </div>
             </article>
         </section>
     </main>
+
+    <!--Parte del footer que contiene las redes sociales, el maps con la ubicacion fisica de la empresa y el formularo-->
+
     <footer>
         <section class="contenedor-antibarra">
             <article class="mapa">
@@ -128,7 +344,7 @@
 
             </article>
             <article class="contenedor-redes">
-                <div id="redes">
+                <div id="contacto">
                     <a href="#">facebook
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48"
                             viewBox="0 0 48 48">
@@ -164,7 +380,7 @@
 
                     </a>
                 </div>
-                <div id="contacto">
+                <div>
                     <a href="">telefono
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">

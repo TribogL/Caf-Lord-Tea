@@ -5,14 +5,14 @@
     --paredFondo: #F9FADE;
     --textoNav: #ffffff;
     --texto: rgba(0, 0, 0, 0.504);
-    --ilumination: #6FCB2F;
     --bienvenida: #DBFFD3;
-    --hr: #483A11;
-    --paredbody: #DCCA94;
+    --navios: #7a0e0e;
+    --paredbody: #e0e9f384;
     --color-ilumi: #13ffe0;
     --sombra: #7f7b7b;
-    --pared: #f2ecea;
+    --borders: #d0b44d;
     --colortextfrom: #181818;
+    --hr:#0b6ed8;
 }
 a{
     text-decoration: none;
@@ -28,6 +28,14 @@ div[id] {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+main{
+    border-top: 5px solid var(--borders) ;
+    border-bottom: 5px solid var(--borders);
+}
+hr{
+    height: 5px;
+    background-color: var(--hr);
 }
 /* Estilos del header */
 .contenedor-barra-total{
@@ -87,17 +95,73 @@ div[id] {
     margin-right: 50px;
 }
 /* estilos del main */
-.contenedor-productos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.productos{
-    max-height: 35vh;
-    max-width: 35vh;
-}
 .menu-productos{
     text-align: center;
     font-size: 40px;
 }
+.contenedor-productos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width:80% ;
+    height: auto;
+}
+.contenedor-productos h3{
+    text-align: center;
+    font-size: 70px;
+    margin-left: 400px;
+    margin-bottom: 40px;
+}
+.productos{
+    margin-bottom: 0px;
+}
+.parrafo{
+    width: 900px;
+}
+.productos{
+    max-height: 40vh;
+    max-width: 40vh;
+}
+/* Section de veleros */
+.contenedor-veleros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7%;
+    margin-left: 400px;
+    border-bottom: 7px solid var(--navios);
+}
+/* sección de cargueros */
+.contenedor-cargueros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7%;
+    margin-left: 500px;
+    border-bottom: 7px solid var(--navios);
+}
+/* sección de pesqueros */
+.contenedor-pesqueros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7%;
+    margin-left: 500px;
+    border-bottom: 7px solid var(--navios);
+}
+/* Sección sobre VOYAGER */
+.contenedor-voyager{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7%;
+    margin-left: 500px;
+    background-color: var(--paredbody);
+    margin-bottom: 60px;
+}
+.contenedor-voyager p{
+    font-size: 30px;
+    text-align: center;
+}
+/* Footer */
