@@ -94,8 +94,8 @@ div[id] {
     justify-content: center;
 }
 .productos{
-    max-height: 40vh;
-    max-width: 40vh;
+    max-height: 35vh;
+    max-width: 35vh;
 }
 .menu-productos{
     text-align: center;
