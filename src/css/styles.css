@@ -4,7 +4,7 @@
 :root {
     --paredFondo: #F9FADE;
     --textoNav: #450c0c;
-    --texto: black;
+    --texto: rgba(0, 0, 0, 0.565);
     --ilumination: #6FCB2F;
     --bienvenida: #DBFFD3;
     --hr: #483A11;
@@ -19,4 +19,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+/* Estilos del header */
+.contenedor-barra-total{
+    background-image: url(../../public/img/Tugboat-container-ship.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100vh;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.contenedor-barra{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    background-color: var(--texto);
+}
+.logo{
+    max-width: 30vh;
+    max-height: 30vh;
+    margin: 0%;
 }
