@@ -3,8 +3,8 @@
 
 :root {
     --paredFondo: #F9FADE;
-    --textoNav: #450c0c;
-    --texto: rgba(0, 0, 0, 0.565);
+    --textoNav: #ffffff;
+    --texto: rgba(0, 0, 0, 0.504);
     --ilumination: #6FCB2F;
     --bienvenida: #DBFFD3;
     --hr: #483A11;
@@ -14,7 +14,16 @@
     --pared: #f2ecea;
     --colortextfrom: #181818;
 }
-
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+html{
+    scroll-behavior: smooth;
+}
+div[id] {
+    scroll-margin-top: 100px;
+}
 * {
     margin: 0;
     padding: 0;
@@ -25,20 +34,70 @@
     background-image: url(../../public/img/Tugboat-container-ship.webp);
     background-repeat: no-repeat;
     background-size: cover;
+
     padding-bottom: 100vh;
     max-height: 100%;
     max-width: 100%;
 }
-
 .contenedor-barra{
     display: flex;
+    position: fixed;
     flex-direction: row;
-    align-items: start;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 90%;
+    gap: 27%   ;
+    width: 100%;
     background-color: var(--texto);
 }
+.contenedor-barra a{
+    color: var(--textoNav);
+}
+.contenedor-barra a :hover{
+    color: var(--color-ilumi);
+}
+.contenedor-logo{
+    display: inherit;
+    color: var(--textoNav);
+}
+.contenedor-logo h1{
+    text-align: center;
+    font-size: 31px;
+}
 .logo{
-    max-width: 30vh;
-    max-height: 30vh;
-    margin: 0%;
+    width: 80px;
+    height: 80px;
+}
+.nave-barra{
+    display: inherit;
+    width: 60vh;
+    font-size: 18px;
+}
+.nave-barra a{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left:40px;
+    padding-right: 40px;
+}
+.barra-buscadora{
+    font-size: 0px;
+    margin-right: 50px;
+}
+/* estilos del main */
+.contenedor-productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.productos{
+    max-height: 40vh;
+    max-width: 40vh;
+}
+.menu-productos{
+    text-align: center;
+    font-size: 40px;
 }
