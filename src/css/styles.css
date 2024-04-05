@@ -12,6 +12,7 @@
     --sombra: #7f7b7b;
     --borders: #d0b44d;
     --colortextfrom: #181818;
+    --antibarra: #181818;
     --hr:#0b6ed8;
 }
 a{
@@ -37,12 +38,24 @@ hr{
     height: 5px;
     background-color: var(--hr);
 }
+/* id */
+#inicio{
+    height: 100vh;
+}
+#productos{
+    height: 100vh;
+}
+#sobre-nosotros{
+    height: 70vh;
+}
+#contacto{
+    height: 70vh;
+}
 /* Estilos del header */
 .contenedor-barra-total{
     background-image: url(../../public/img/Tugboat-container-ship.webp);
     background-repeat: no-repeat;
     background-size: cover;
-
     padding-bottom: 100vh;
     max-height: 100%;
     max-width: 100%;
@@ -57,7 +70,7 @@ hr{
     left: 0%;
     right: 0%;
     bottom: 90%;
-    gap: 27%   ;
+    gap: 28%   ;
     width: 100%;
     background-color: var(--texto);
 }
@@ -69,7 +82,9 @@ hr{
 }
 .contenedor-logo{
     display: inherit;
+    align-items: center;
     color: var(--textoNav);
+    margin-right: 19%;
 }
 .contenedor-logo h1{
     text-align: center;
@@ -165,3 +180,6 @@ hr{
     text-align: center;
 }
 /* Footer */
+.contenedor-antibarra{
+    background-color: var(--antibarra);
+}
